@@ -151,18 +151,6 @@ This document describes all the key API endpoints used in the Shuttle Management
 - **Usage:**  
   Send a GET request with the user ID as a query parameter (e.g., `/api/booking/history?userId=6`).
 
----
-
-## 7. (Optional) Route Suggestions
-
-- **Endpoint:** `POST /api/routes/suggestions`
-- **Purpose:**  
-  Provides optimal route suggestions based on the user's travel patterns.  
-- **Key Points:**  
-  - The system analyzes past bookings to determine frequently used routes.  
-  - It then returns a list of suggested routes, including details like the sequence of stops, estimated travel time, and cost.
-- **Usage:**  
-  Send a POST request with a JSON body containing the user's ID and current/destination coordinates.
 
 ---
 
