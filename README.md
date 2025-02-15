@@ -39,7 +39,7 @@ A smart campus transit solution that streamlines shuttle operations and provides
 - **Backend:** Java, Spring Boot, Spring Data JPA, Hibernate
 - **Database:** PostgreSQL
 - **Frontend:** HTML, Bootstrap 4, jQuery
-- **Build Tool:** Maven
+- **Build Tool:** Graddle
 
 ---
 
